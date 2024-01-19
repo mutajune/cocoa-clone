@@ -1,24 +1,44 @@
 <!DOCTYPE html>
 <html lang="kr">
 <head>
+    <link rel="stylesheet" href="css/styles.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>muta talk</title>
 </head>
     <body>
-        <div id="status-bar">
+        <div class="status-bar">
             <div class="status-bar__column">
                 <span>LG U+</span>
-                <!--to do: wifi Icon-->
+                <i class="fa-solid fa-wifi"></i>
+                  
             </div>
             <div class="status-bar__column">
                 <span>13:19</span>
             </div>
             <div class="status-bar__column">
                 <span>85%</span>
-                <!--battery Icon-->
-                <!--lightning Icon-->
+                <i class="fa-solid fa-battery-three-quarters"></i>
+                <i class="fa-solid fa-bolt fa-2xs"></i>
             </div>
         </div>
+        
+        <header class="welcome-header">
+            <h1 class="welcome-header__title"> 무타톡</h1>
+            <p class="welcome-header__text">무타톡을 이용을 위해 이메일 또는 휴대폰 번호를 적어주세요.</p>
+        </header>
+
+        <form id="login-form">
+            <input type="text" placeholder="이메일 또는 전화번호">
+            <input type="password" placeholder="비밀번호">
+            <input type="submit" value="로그인">
+            <input type="submit" value="가입">
+            <p href="#">비밀번호 잃어버렸나요?</p>
+        </form>
+       
+
+
+        <script src="https://kit.fontawesome.com/0a3243f79a.js" crossorigin="anonymous"></script>
+    
     </body>
 </html>
