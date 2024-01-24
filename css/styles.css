@@ -1,12 +1,20 @@
-@import "reset.css";
-@import "status-bar.css";
-@import "welcome-header.css";
-@import "variavles.css";
-@import "login-form.css";
-@import "nav-bar.css";
-@import "screen_f.css";
+@import "0.공용/reset.css";
+@import "0.공용/status-bar.css";
+@import "0.공용/variavles.css";
+@import "0.공용/nav-bar.css";
+@import "0.공용/badge.css";
+@import "0.공용/screenheader.css";
+
+@import "1.인덱스/welcome-header.css";
+@import "1.인덱스/login-form.css";
+
+@import "2.친구/screenscod.css";
+@import "2.친구/user-component.css";
+
+@import "4.검색/find.css";
 
 
 body {
+    color: #2e363e;
     font-family: "open sans", sans-serif;
 }
