@@ -13,6 +13,13 @@
 
 @import "4.검색/find.css";
 
+@import "5.더보기/more.css";
+
+@import "6.설정/alt-screen-header.css";
+@import "6.설정/set.css";
+
+@import "7.채팅창/chacting.css";
+
 
 body {
     color: #2e363e;
