@@ -5,7 +5,6 @@
     padding: var(--horizontal-space);
     margin-top:40px;
     margin-bottom:15px;
-
 }
 
 .screen-header__title{
@@ -29,4 +28,9 @@ position: relative;
     position: absolute;
     left: 930px;
     top: 20px;
+}
+
+.screen-header a{
+    text-decoration: none;
+    color: black
 }
