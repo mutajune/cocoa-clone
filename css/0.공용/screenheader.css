@@ -16,6 +16,9 @@
 .screen-header__icon span{
     margin-left: 25px;
 }
+.s-h-r{
+position: relative;
+}
 
 .screen__o {
     background-color: tomato;
@@ -25,5 +28,5 @@
     border-radius: 2.5px;
     position: absolute;
     left: 930px;
-    top: 60px;
+    top: 20px;
 }
