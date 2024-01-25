@@ -1,0 +1,20 @@
+.set-set {
+    padding: 10px 0;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+     justify-content: space-between;
+}
+
+.set-set i {
+    opacity: 0.8;
+    margin-right: 10px;
+    font-size: 22px;
+}
+
+.set-set-co:last-child {
+opacity: 0.8;
+font-size: 12px;
+margin-right: 20px;
+}
