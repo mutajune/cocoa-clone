@@ -1,0 +1,69 @@
+.uuser__np {
+    display: flex;
+}
+
+.find-low{
+    display: flex;
+    justify-content: space-between;
+}
+
+.find-low__icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.find-low__icon i {
+    font-size: 35px;
+}
+
+.find-low__icon span{
+    margin-top: 15px;
+}
+
+
+.mire-screen, .find-low {
+    margin-bottom: 35px;
+}
+
+.mo {
+    margin-top: 50px;
+    border-top: var(--b__bar);
+    padding-top: 40px;
+    border-bottom: none
+}
+
+.mo_t {
+    margin-bottom: 30px;
+}
+
+.mo_i {
+    display: flex;
+}
+
+.mo_ii{
+    margin-right: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mo_iim {
+    width: 60px;
+    height: 60px;
+    background-color: var(--yellow);
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.mo_iim i{
+    font-size: 32px;
+    color: white;
+    
+}
+
+.mo_ii span{
+    font-size: 11px;
+}
