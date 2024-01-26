@@ -4,6 +4,8 @@
 @import "0.공용/nav-bar.css";
 @import "0.공용/badge.css";
 @import "0.공용/screenheader.css";
+@import "0.공용/splash screen.css";
+@import "0.공용animation.css";
 
 @import "1.인덱스/welcome-header.css";
 @import "1.인덱스/login-form.css";
