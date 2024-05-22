@@ -3,7 +3,7 @@
     justify-content: space-between;
     align-items: center;
     padding: var(--horizontal-space);
-    margin-top:40px;
+    margin-top:25px;
     margin-bottom:15px;
 }
 
@@ -13,7 +13,7 @@
 }
 
 .screen-header__icon span{
-    margin-left: 25px;
+    margin-left: 10px;
 }
 .s-h-r{
 position: relative;
@@ -33,4 +33,8 @@ position: relative;
 .screen-header a{
     text-decoration: none;
     color: black
+}
+
+.screen-header__icon {
+    font-size: 10px;
 }

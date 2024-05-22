@@ -7,19 +7,22 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 0px 10px;
 }
 
 .find-icons__icon i {
-    font-size: 35px;
+    font-size: 25px;
 }
 
 .find-icons__icon span{
     margin-top: 15px;
+    font-size: 14px;
 }
 
 .reco-fr{
-    margin: 25px 0px;
-    padding: 25px 0px;
+    margin: 20px 10px;
+    padding: 10px 10px;
+    height: 200px;
     border-top: var(--b__bar);
     border-bottom: var(--b__bar);
 }
@@ -31,7 +34,7 @@
 
 
 .reco-fr span{
-    margin: 105px 0px;
+    margin: 105px 10px;
     display: block;
     text-align: center;
     font-size: 18px;
@@ -42,22 +45,24 @@
     display: flex;
     justify-content: space-between;
     opacity: 0.8;
-    margin-bottom: 25px;
+    margin-bottom: 10px;
 }
 
 .open-fr__header span{
     opacity: 0.6;
+    
 }
 
 .open-po {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 10px;
 }
 
 .open-po-t {
     font-weight: 600;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 .open-po-tg {
@@ -86,7 +91,7 @@
 .op-pp-mb .divider {
     width: 1px;
     height: 15px;
-    margin: 0 5px;
+    margin: 0 10px;
     background-color: var(--c__g);
 }
 
@@ -128,4 +133,19 @@ margin-left: 5px;
 .po-li{
     padding-top: 20px;
     border-top: var(--b__bar);
+    margin: 10px;
+}
+
+.open-fr__header h4
+{
+    margin: 0 10px;
+}
+
+.open-fr__header span
+{
+    margin: 0 10px;
+}
+
+.amamam {
+    padding-bottom: 100px;
 }

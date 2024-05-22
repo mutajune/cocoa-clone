@@ -9,6 +9,8 @@ body{
     width: 100%;
     box-sizing: border-box;
     top: 0;
+    background-color: black;
+    color: white;
     }
     .status-bar__column {
         width: 33%;
@@ -27,6 +29,7 @@ body{
         justify-content: flex-end;
         align-items: center;
     }
-    .status-bar__column .fa-battery-three-quarters {
-        margin: 0px 5px;
+    .status-bar__column .fa-battery-three-quarters,
+    .BBD {
+        margin: 0px 3px;
     }

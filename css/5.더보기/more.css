@@ -3,6 +3,7 @@
 }
 
 .find-low{
+    margin-top: 25px;
     display: flex;
     justify-content: space-between;
 }
@@ -14,11 +15,11 @@
 }
 
 .find-low__icon i {
-    font-size: 35px;
+    font-size: 25px;
 }
 
 .find-low__icon span{
-    margin-top: 15px;
+    margin-top: 10px;
 }
 
 
@@ -27,18 +28,19 @@
 }
 
 .mo {
-    margin-top: 50px;
+    margin-top: 20px;
     border-top: var(--b__bar);
-    padding-top: 40px;
+    padding-top: 20px;
     border-bottom: none
 }
 
 .mo_t {
-    margin-bottom: 30px;
+    margin-bottom: 15px;
 }
 
 .mo_i {
     display: flex;
+
 }
 
 .mo_ii{

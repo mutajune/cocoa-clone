@@ -1,6 +1,6 @@
 .alt-header {
     padding: var(--horizontal-space);
-    margin-bottom:15px;
+    margin-top:5px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -37,4 +37,8 @@ margin-left: 10px;
 
 .alt-header__column{
     width: 33%;
+}
+
+.qqqwww {
+    margin-top: 26px;
 }
